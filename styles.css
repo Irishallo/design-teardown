@@ -4,21 +4,53 @@
 }
 
 header {
-    grid-column: 1/-1;
+    grid-column: 1 / -1;
 }
 
 .weight1 {
     background-color: #000000;
+    color: #ffffff;
+    border: #ffffff solid 2px;
 }
 
 .weight2 {
     background-color: #2c2c2c;
+    color: #ffffff;
+    border: #ffffff solid 2px;
 }
 
 .weight3 {
     background-color: #727272;
+    border: #ffffff solid 2px;
 }
 
 .weight4 {
     background-color: #b8b8b8;
+    border: #ffffff solid 2px;
+}
+
+#art1 {
+    grid-column: 2 / 10;
+}
+
+.newsletter {
+    grid-column: 11 / -2;
+}
+
+.wholewidth {
+    grid-column: 1 / -1;
+}
+
+.smashing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.smashing > * {
+    flex: 0 0 45%;
+}
+
+.join {
+    grid-column: 5 / -5;
 }
